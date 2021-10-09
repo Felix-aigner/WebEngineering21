@@ -2,7 +2,7 @@
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
 
-Sensible webpack 5 boilerplate using Babel, PostCSS and Sass with a hot dev server and an optimized production build.
+Single Project for Webengineering WS 2021 FH Campus Wien
 
 ## Installation
 
