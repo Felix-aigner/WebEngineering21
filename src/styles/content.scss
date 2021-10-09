@@ -1,0 +1,79 @@
+img {
+  max-height: 300px;
+  max-width: 270px;
+  margin: 10px;
+  vertical-align: middle;
+}
+
+#contentIntro {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  min-height: 30px;
+  margin: 0.5rem;
+}
+
+#decisionBox {
+  width: 100%;
+  height: 350px;
+  #randomImage {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+}
+
+#leftDecisionBox {
+  display: flex;
+}
+
+#rightDecisionBox {
+  display: flex;
+}
+
+#decisionBoxes {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start;
+}
+
+#leftDecisionTitle,
+#rightDecisionTitle {
+  width: 100%;
+}
+
+#leftDecisionBox,
+#rightDecisionBox {
+  flex-wrap: wrap;
+  flex: 50%;
+  max-width: 40%;
+  border: solid 2px black;
+  border-radius: 25px;
+  padding: 0.5rem;
+  margin: 1rem;
+}
+@media screen and (max-width: 1440px) {
+  #leftDecisionBox,
+  #rightDecisionBox {
+    flex: 50%;
+    max-width: 40%;
+  }
+}
+@media screen and (max-width: 800px) {
+  #leftDecisionBox,
+  #rightDecisionBox {
+    flex: 100%;
+    max-width: 80%;
+  }
+}
+
+#buttons {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+
+  button {
+    padding: 0.5rem;
+    margin: 0.5rem;
+  }
+}
